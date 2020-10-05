@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "benanbahattinriza",
+      "setup": "javac *.java",
+      "run": "java -cp . Main",
+      "input": "benanbahattinriza | bahattin",
+      "output": "n-r",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "ali",
+      "setup": "javac *.java",
+      "run": "java -cp . Main",
+      "input": "ali topa at | top",
+      "output": " -a",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "enbas",
+      "setup": "javac *.java",
+      "run": "java -cp Main",
+      "input": "qwerty | qwe",
+      "output": "$-r",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "enson",
+      "setup": "javac *.java",
+      "run": "java -cp Main",
+      "input": "dolardolu | dolu",
+      "output": "r-$",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "string yok",
+      "setup": "javac *.java",
+      "run": "java -cp Main",
+      "input": "var oglu var | yok",
+      "output": "String bulunamadi.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tek karakter",
+      "setup": "javac *.java",
+      "run": "java -cp Main",
+      "input": "pee | pee",
+      "output": "$-$",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
