@@ -23,7 +23,7 @@
     {
       "name": "enbas",
       "setup": "javac *.java",
-      "run": "java -cp Main",
+      "run": "java -cp . Main",
       "input": "qwerty | qwe",
       "output": "$-r",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "enson",
       "setup": "javac *.java",
-      "run": "java -cp Main",
+      "run": "java -cp . Main",
       "input": "dolardolu | dolu",
       "output": "r-$",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "string yok",
       "setup": "javac *.java",
-      "run": "java -cp Main",
+      "run": "java -cp . Main",
       "input": "var oglu var | yok",
       "output": "String bulunamadi.",
       "comparison": "included",
@@ -53,7 +53,7 @@
     {
       "name": "tek karakter",
       "setup": "javac *.java",
-      "run": "java -cp Main",
+      "run": "java -cp . Main",
       "input": "pee | pee",
       "output": "$-$",
       "comparison": "included",
